@@ -1,0 +1,1097 @@
+[
+  {
+    "id": "three-hares-lotus",
+    "name": "三兔莲华",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 32,
+      "radius": 1.1,
+      "canopyHeight": 0.4,
+      "canopyRise": 0.045,
+      "shaftLength": 2.25,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.7,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-407-three-hares-lotus.png",
+      "canopyColor": "#d4b66e",
+      "transmission": 0.65,
+      "roughness": 0.75,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "结构参考：余杭传统纸伞中的文明伞，主要部件包括伞骨、上下斗、伞面、伞柄、伞把和穿线。这说明这一传统纸伞类型由多种部件配合构成，并非只有伞面和一根杆。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "section": "二、（一）产品种类和样式：文明伞六大部件",
+            "accessed": "2026-10-19",
+            "scope": "传统纸伞的结构与用材参考，不作为敦煌古伞实物的证据",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "materials": {
+        "text": "用材参考：余杭纸伞资料记述了竹制伞骨和伞斗、纸质伞面，以及裱糊后上油的做法。柄部用材有多种，并非所有传统纸伞都使用相同木料。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "section": "二、（二）制作工序：材料准备与湿纸裱糊、上油",
+            "accessed": "2026-10-19",
+            "scope": "传统纸伞的结构与用材参考，不作为敦煌古伞实物的证据",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "patternTheme": {
+        "text": "纹样参考：莫高窟第407窟为隋代洞窟，窟顶藻井以重层莲花和相互追逐的三兔构成中心图案。三只兔子共用三只耳朵，形成每只兔子看似都有双耳的巧妙构图。本款将这一题材用于现代伞面设计，并非古伞实物复原。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "“如是回响——丝路上的敦煌”展品解读：莫高窟第407窟三兔莲花纹藻井",
+            "publisher": "无锡博物院",
+            "url": "https://www.wxmuseum.cn/News/Details/5ad667a0-66ef-479b-a7e3-58271e56a28b",
+            "section": "第407窟时代及三兔莲花纹藻井说明",
+            "accessed": "2026-10-19",
+            "scope": "证明壁画题材与洞窟时代，不证明古代存在本项目这款纹样伞",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目正式素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅说明本项目的现代改编定位，不作为历史来源"
+          }
+        ]
+      },
+      "patternMeaning": {
+        "text": "一般认为，三兔循环追逐的构图可联系往复循环、生生不息来理解。这里参考的是赵燕林研究中的一种学术解释，不将它视为原画作者已被证实的唯一意图。",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "莫高窟三兔藻井图像来源考",
+            "author": "赵燕林",
+            "publisher": "艺术探索",
+            "issue": "2017年第3期",
+            "doi": "10.13574/j.cnki.artsexp.2017.03.005",
+            "url": "https://www.fx361.com/page/2017/0628/17184851.shtml",
+            "accessProvider": "参考网（期刊全文转载）",
+            "section": "四、佛教文化与三兔藻井的关系；五、三兔藻井的延续和发展末段",
+            "accessed": "2026-10-19",
+            "scope": "仅用于介绍该作者关于循环往复及生命延续的学术解释；不当作古代题记或学界一致定论",
+            "verified": "2026-10-19"
+          }
+        ]
+      }
+    },
+    "craftSteps": [
+      {
+        "name": "选竹",
+        "desc": "先挑选适合做伞骨的竹材，查看竹身是否顺直、是否具备弹性，再安排干燥和后续加工。选材要为反复开合提供基础。一般认为，弯曲或已有裂损的竹料会增加削骨和组架的困难。",
+        "image": "assets/craft/bamboo-selection.webp",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "千年油纸伞，焕发新生机",
+            "publisher": "福州市政协委员会",
+            "url": "https://zx.fuzhou.gov.cn/zz/csfz/tpxw/201712/t20171215_1938150.htm",
+            "section": "整把伞没有一个金属件：选材弹力、韧性要求及晒干刮青的段落",
+            "accessed": "2026-10-19",
+            "scope": "竹材选择与弹性要求有资料支持；裂损、弯曲给加工带来的影响为材料及结构层面的推断。",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "劈骨",
+        "desc": "把竹筒顺着纹理劈成细条，再按用途削整成相配的伞骨，检查同类伞骨的长短、宽窄与厚薄。这一步为均匀组架做准备。一般认为，同类竹骨粗细相差过大，会使各处受力和弯曲程度不一致。",
+        "image": "assets/craft/bamboo-splitting.webp",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "石鼓伞韵，笔底传承——我院美术学专业师生考察体验石鼓油纸伞制作技艺",
+            "publisher": "湖南科技大学齐白石艺术学院",
+            "url": "https://art.hnust.edu.cn/xyxw/de260954cad7448fabd21c0aa9523ed5.htm",
+            "section": "工坊教学第一段：劈制长短、大小、厚薄一致的竹条，随后钻孔、拼架、穿线",
+            "accessed": "2026-10-19",
+            "scope": "劈制及同类伞骨尺寸一致要求有工坊实录支持；不同用途的伞骨不要求统一长度，粗细差异的受力后果为结构推断。",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "钻孔",
+        "desc": "在整理好的竹骨上确定穿线位置，逐根钻出连接所需的小孔，给后续串接留下通道。钻孔是让分散竹条组成骨架的准备。一般认为，孔位偏差或孔边劈裂，会妨碍穿线与连接牢固。",
+        "image": "assets/craft/rib-drilling.webp",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "石鼓伞韵，笔底传承——我院美术学专业师生考察体验石鼓油纸伞制作技艺",
+            "publisher": "湖南科技大学齐白石艺术学院",
+            "url": "https://art.hnust.edu.cn/xyxw/de260954cad7448fabd21c0aa9523ed5.htm",
+            "section": "工坊教学第一段：劈条之后钻孔、拼架、穿线",
+            "accessed": "2026-10-19",
+            "scope": "钻孔后拼架穿线有资料支持；孔位和孔边缺陷的影响为结构推断，不规定地方专用孔数与尺寸。",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "section": "二、（二）制作工序和三、传承方式：钻孔、穿斗、排骨与组架",
+            "accessed": "2026-10-19",
+            "scope": "钻孔后拼架穿线有资料支持；孔位和孔边缺陷的影响为结构推断，不规定地方专用孔数与尺寸。",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "组架",
+        "desc": "将伞骨围绕中棒排开，配合伞斗穿接并用线连接，使分散部件组成能够开合的骨架。穿线也承担加固作用。一般认为，排列不匀或连接松脱，会让伞面支撑不均，开合也难以顺畅。",
+        "image": "assets/craft/frame-assembly.webp",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "石鼓伞韵，笔底传承——我院美术学专业师生考察体验石鼓油纸伞制作技艺",
+            "publisher": "湖南科技大学齐白石艺术学院",
+            "url": "https://art.hnust.edu.cn/xyxw/de260954cad7448fabd21c0aa9523ed5.htm",
+            "section": "工坊教学第一段：拼架、穿线及穿线的加固作用",
+            "accessed": "2026-10-19",
+            "scope": "排骨、穿斗、组架和线的加固作用有资料支持；缺陷对支撑和开合的影响为结构推断。",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "section": "三、传承方式和谱系：排伞骨、钻孔、穿斗、组装伞骨架",
+            "accessed": "2026-10-19",
+            "scope": "排骨、穿斗、组架和线的加固作用有资料支持；缺陷对支撑和开合的影响为结构推断。",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "裱纸",
+        "desc": "在已组好的骨架上铺贴伞面纸，用黏合材料把纸与伞骨贴合，待纸面干燥后再加固纸边及伞顶。贴纸既要牢固，也要柔韧；黏合层过厚会使纸面发硬，过薄则容易脱落，影响收拢和使用。",
+        "image": "assets/craft/paper-mounting.webp",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "section": "二、（二）主要制作工序：引述《浙江商务》的湿纸裱糊、待干后纸缘及伞顶加固说明",
+            "accessed": "2026-10-19",
+            "scope": "湿纸裱糊、待干后边顶加固及黏合层过厚变硬、过薄脱落均见工艺研究正文；未指定各地统一配方。",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "绘纹",
+        "desc": "待裱好的纸面干燥后，再在伞面上绘制花纹，让图案随伞的圆面展开。本项目采用敦煌题材的现代设计。一般认为，纸面未干或落笔过急，会使边线难以控制，影响图案清楚与整齐。",
+        "image": "assets/craft/pattern-painting.webp",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "千年油纸伞，焕发新生机",
+            "publisher": "福州市政协委员会",
+            "url": "https://zx.fuzhou.gov.cn/zz/csfz/tpxw/201712/t20171215_1938150.htm",
+            "section": "选竹、骨架、上伞面、绘花、上油的工序概括及末尾绘制后晾干、上油的体验记录",
+            "accessed": "2026-10-19",
+            "scope": "纸面成形后绘画、绘画后晾干上油有记录；未干及落笔对画面影响为绘制层面的推断。敦煌题材属于本项目设计说明。",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "石鼓伞韵，笔底传承——我院美术学专业师生考察体验石鼓油纸伞制作技艺",
+            "publisher": "湖南科技大学齐白石艺术学院",
+            "url": "https://art.hnust.edu.cn/xyxw/de260954cad7448fabd21c0aa9523ed5.htm",
+            "section": "工坊体验第二段：糊面后绘画创作，随后刷桐油",
+            "accessed": "2026-10-19",
+            "scope": "纸面成形后绘画、绘画后晾干上油有记录；未干及落笔对画面影响为绘制层面的推断。敦煌题材属于本项目设计说明。",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "项目正式素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "只记录本项目的现代设计定位，不作为历史工艺来源"
+          }
+        ]
+      },
+      {
+        "name": "上油",
+        "desc": "在图案干燥后给纸面刷上桐油，使纸面获得保护，改善遇水时的使用表现。上油不是只为增加光泽，也是油纸伞区别于普通纸面的关键。一般认为，漏刷或涂层不匀会留下保护较弱的区域。",
+        "image": "assets/craft/tung-oil-coating.webp",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "千年油纸伞，焕发新生机",
+            "publisher": "福州市政协委员会",
+            "url": "https://zx.fuzhou.gov.cn/zz/csfz/tpxw/201712/t20171215_1938150.htm",
+            "section": "整把伞没有一个金属件：棉纸怕水所以用桐油；末尾晾干、上油的说明",
+            "accessed": "2026-10-19",
+            "scope": "纸怕水而使用桐油、绘画后晾干上油有记录；漏刷和涂层不匀的影响为材料层面推断。",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "section": "二、（二）湿纸裱糊后的上油；四、（二）熟桐油处理纸面",
+            "accessed": "2026-10-19",
+            "scope": "纸怕水而使用桐油、绘画后晾干上油有记录；漏刷和涂层不匀的影响为材料层面推断。",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      {
+        "name": "晾干",
+        "desc": "将上过油的伞留出充分干燥时间，待油层干燥后再整理，检查纸边、连接处和开合情况，完成成伞收尾。一般认为，油层未干就合拢收存，容易让相邻纸面粘连，因此不能省去这一步。",
+        "image": "assets/craft/umbrella-drying.webp",
+        "level": "推断",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "section": "二、（二）主要制作工序：油干之后整理，文明伞制作完成",
+            "accessed": "2026-10-19",
+            "scope": "油干后整理成伞有工艺记载；检查事项是教学归纳，未干收拢粘连为材料层面推断，不规定日晒强度与统一天数。",
+            "verified": "2026-10-19"
+          }
+        ]
+      }
+    ],
+    "patternSummary": {
+      "words": [
+        "三兔",
+        "莲花"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "“如是回响——丝路上的敦煌”展品解读：莫高窟第407窟三兔莲花纹藻井",
+          "publisher": "无锡博物院",
+          "url": "https://www.wxmuseum.cn/News/Details/5ad667a0-66ef-479b-a7e3-58271e56a28b",
+          "section": "第407窟时代及三兔莲花纹藻井说明",
+          "accessed": "2026-10-19",
+          "scope": "证明壁画题材与洞窟时代，不证明古代存在本项目这款纹样伞",
+          "verified": "2026-10-19"
+        },
+        {
+          "title": "本项目正式素材清单：设计思路",
+          "path": "assets/README.md",
+          "scope": "仅说明本项目的现代改编定位，不作为历史来源"
+        }
+      ]
+    },
+    "projectIntro": {
+      "title": "创作缘起",
+      "text": "我们以传统油纸伞的形制为载体，从敦煌壁画的莲花、忍冬、团花与瑞兽等纹样中提取元素，将壁画的色彩与构图重新编排于圆形伞面。以新中式设计连接传统工艺与当代审美，让千年壁上的花叶，在一柄伞间展开。这是一次以敦煌艺术为灵感的现代创作，并非历史伞具或壁画原貌的复原。",
+      "note": "本项目共用的创作说明，文案经作者确认；不作为历史事实或文物复原说明。"
+    }
+  },
+  {
+    "id": "honeysuckle",
+    "name": "忍冬缠枝",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 24,
+      "radius": 1.02,
+      "canopyHeight": 0.34,
+      "canopyRise": 0.08,
+      "shaftLength": 2.25,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.7,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-285-honeysuckle.png",
+      "canopyColor": "#e2d3a1",
+      "transmission": 0.72,
+      "roughness": 0.7,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "",
+        "level": null,
+        "_source": null
+      },
+      "size": {
+        "text": "",
+        "level": null,
+        "_source": null
+      },
+      "materials": {
+        "text": "",
+        "level": null,
+        "_source": null
+      },
+      "patternTheme": {
+        "text": "",
+        "level": null,
+        "_source": null
+      },
+      "patternMeaning": {
+        "text": "",
+        "level": null,
+        "_source": null
+      }
+    },
+    "craftSteps": [],
+    "patternSummary": {
+      "words": [
+        "忍冬",
+        "缠枝"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "本项目正式素材清单：忍冬缠枝 P02",
+          "path": "assets/manifest.json",
+          "section": "assets.P02",
+          "scope": "仅支持本项目纹样题材名称，不作为洞窟出处或历史寓意的依据"
+        }
+      ]
+    }
+  },
+  {
+    "id": "stemmed-lotus",
+    "name": "盘茎莲华",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 20,
+      "radius": 0.92,
+      "canopyHeight": 0.52,
+      "canopyRise": 0.06,
+      "shaftLength": 2.15,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.64,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-390-stemmed-lotus.webp",
+      "canopyColor": "#e4c58a",
+      "transmission": 0.62,
+      "roughness": 0.76,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "本款采用20根伞骨，伞面相对较小、中央较高，形成较收束的轮廓。弧垂让相邻伞骨之间略有起伏。这是本项目为盘茎莲花题材搭配的现代模型，不是历史伞具测绘。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目模型参数：盘茎莲华",
+            "path": "data/umbrellas.json",
+            "section": "stemmed-lotus.geometry",
+            "scope": "仅支持本项目参数事实，不作为历史实物尺寸或传统制式来源",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "materials": {
+        "text": "用材参考：传统纸伞以竹为骨、以纸为面，并有上桐油的做法。画面中的竹木纹理是数字贴图，不是实物检测结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "section": "二、（二）材料准备与主要制作工序；四、（二）开头",
+            "scope": "只支持传统纸伞的竹骨、纸面及上油参考，不证明本项目各款已制成实物",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      },
+      "patternTheme": {
+        "text": "纹样参考：莫高窟第390窟的隋代藻井，以中央大莲花与盘茎上分布的小莲花组织画面。本款借用莲花环绕、枝茎连接的构图思路，重新编排为圆形伞面，并非原壁画复制。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "藻井图案 莫高窟第390窟 隋",
+            "url": "https://lib.tsinghua.edu.cn/arts/info/1034/2020.htm",
+            "publisher": "清华大学图书馆美术图书馆",
+            "section": "正文藻井图案说明",
+            "scope": "只支持第390窟莲花与盘茎题材，不支持本项目图像逐笔复原",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      }
+    },
+    "craftSteps": [],
+    "patternSummary": {
+      "words": [
+        "莲花",
+        "盘茎"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "藻井图案 莫高窟第390窟 隋",
+          "url": "https://lib.tsinghua.edu.cn/arts/info/1034/2020.htm",
+          "publisher": "清华大学图书馆美术图书馆",
+          "section": "正文藻井图案说明",
+          "scope": "只支持第390窟莲花与盘茎题材，不支持本项目图像逐笔复原",
+          "accessed": "2026-10-19",
+          "verified": "2026-10-19"
+        },
+        {
+          "title": "本项目素材清单：设计思路",
+          "path": "assets/README.md",
+          "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+        }
+      ]
+    }
+  },
+  {
+    "id": "cloud-lotus",
+    "name": "青空卷莲",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 28,
+      "radius": 1.16,
+      "canopyHeight": 0.28,
+      "canopyRise": 0.025,
+      "shaftLength": 2.45,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.74,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-329-cloud-lotus.png",
+      "canopyColor": "#d5e0cc",
+      "transmission": 0.78,
+      "roughness": 0.66,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "本款采用28根伞骨，伞面较宽、中央较平，弧垂较轻，突出舒展的轮廓。中棒比例与窄小伞面款不同。这些差异来自本项目参数设计，不代表某一时期的古伞制式。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目模型参数：青空卷莲",
+            "path": "data/umbrellas.json",
+            "section": "cloud-lotus.geometry",
+            "scope": "仅支持本项目参数事实，不作为历史实物尺寸或传统制式来源",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "materials": {
+        "text": "用材参考：传统纸伞以竹为骨、以纸为面，并有上桐油的做法。画面中的竹木纹理是数字贴图，不是实物检测结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "section": "二、（二）材料准备与主要制作工序；四、（二）开头",
+            "scope": "只支持传统纸伞的竹骨、纸面及上油参考，不证明本项目各款已制成实物",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      },
+      "patternTheme": {
+        "text": "纹样参考：莫高窟第329窟建于初唐，藻井以莲花团花为中心，周围还有云纹、忍冬等装饰。本款取其中莲花与流动线条的构图趣味作现代改编，“青空卷莲”是项目名称，不是文物定名。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "数字敦煌：莫高窟第329窟",
+            "url": "https://www.e-dunhuang.com/cave/10.0001/0001.0001.0329",
+            "publisher": "敦煌研究院",
+            "section": "洞窟介绍；Main chamber / Ceiling Center",
+            "scope": "支持初唐洞窟、莲花团花及云纹忍冬；不声称本贴图含有原画全部飞天等元素",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      }
+    },
+    "craftSteps": [],
+    "patternSummary": {
+      "words": [
+        "莲花",
+        "云纹"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "数字敦煌：莫高窟第329窟",
+          "url": "https://www.e-dunhuang.com/cave/10.0001/0001.0001.0329",
+          "publisher": "敦煌研究院",
+          "section": "洞窟介绍；Main chamber / Ceiling Center",
+          "scope": "支持初唐洞窟、莲花团花及云纹忍冬；不声称本贴图含有原画全部飞天等元素",
+          "accessed": "2026-10-19",
+          "verified": "2026-10-19"
+        },
+        {
+          "title": "本项目素材清单：设计思路",
+          "path": "assets/README.md",
+          "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+        }
+      ]
+    }
+  },
+  {
+    "id": "grape-pomegranate",
+    "name": "葡萄石榴",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 36,
+      "radius": 1.2,
+      "canopyHeight": 0.44,
+      "canopyRise": 0.095,
+      "shaftLength": 2.55,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.82,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-209-grape-pomegranate.png",
+      "canopyColor": "#e5be88",
+      "transmission": 0.58,
+      "roughness": 0.8,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "本款采用36根伞骨，伞面较宽，中棒也相应加长；较明显的弧垂使纸面呈现起伏。它与较平展的款式形成轮廓差别，属于本项目的现代设计搭配，不是出土器物的尺寸复原。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目模型参数：葡萄石榴",
+            "path": "data/umbrellas.json",
+            "section": "grape-pomegranate.geometry",
+            "scope": "仅支持本项目参数事实，不作为历史实物尺寸或传统制式来源",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "materials": {
+        "text": "用材参考：传统纸伞以竹为骨、以纸为面，并有上桐油的做法。画面中的竹木纹理是数字贴图，不是实物检测结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "section": "二、（二）材料准备与主要制作工序；四、（二）开头",
+            "scope": "只支持传统纸伞的竹骨、纸面及上油参考，不证明本项目各款已制成实物",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      },
+      "patternTheme": {
+        "text": "纹样参考：敦煌研究院的图文资料，将莫高窟第209窟藻井标为初唐葡萄石榴纹藻井。本款据此选用葡萄、石榴题材作圆形改编，配色和疏密属于现代设计，不照搬壁画原貌。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "敦煌岁时节令｜白露：又是一年葡萄甜",
+            "url": "https://www.dha.ac.cn/info/1157/2691.htm",
+            "publisher": "敦煌研究院",
+            "section": "配图说明：莫高窟第209窟 葡萄石榴纹藻井 初唐",
+            "scope": "只支持洞窟、时期与题材名称，不支持多子多福等具体寓意",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      }
+    },
+    "craftSteps": [],
+    "patternSummary": {
+      "words": [
+        "葡萄",
+        "石榴"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "敦煌岁时节令｜白露：又是一年葡萄甜",
+          "url": "https://www.dha.ac.cn/info/1157/2691.htm",
+          "publisher": "敦煌研究院",
+          "section": "配图说明：莫高窟第209窟 葡萄石榴纹藻井 初唐",
+          "scope": "只支持洞窟、时期与题材名称，不支持多子多福等具体寓意",
+          "accessed": "2026-10-19",
+          "verified": "2026-10-19"
+        },
+        {
+          "title": "本项目素材清单：设计思路",
+          "path": "assets/README.md",
+          "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+        }
+      ]
+    }
+  },
+  {
+    "id": "composite-flower",
+    "name": "盛唐团花",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 40,
+      "radius": 1.24,
+      "canopyHeight": 0.36,
+      "canopyRise": 0.035,
+      "shaftLength": 2.65,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.76,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-320-composite-flower.png",
+      "canopyColor": "#e5c675",
+      "transmission": 0.68,
+      "roughness": 0.72,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "本款采用40根伞骨，伞面半径在本组中较大，中央较平，中棒较长；轻弧垂让轮廓保持饱满舒展。它是为层叠花纹搭配的现代模型，骨数与比例均不作为历史实物数据。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目模型参数：盛唐团花",
+            "path": "data/umbrellas.json",
+            "section": "composite-flower.geometry",
+            "scope": "仅支持本项目参数事实，不作为历史实物尺寸或传统制式来源",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "materials": {
+        "text": "用材参考：传统纸伞以竹为骨、以纸为面，并有上桐油的做法。画面中的竹木纹理是数字贴图，不是实物检测结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "section": "二、（二）材料准备与主要制作工序；四、（二）开头",
+            "scope": "只支持传统纸伞的竹骨、纸面及上油参考，不证明本项目各款已制成实物",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      },
+      "patternTheme": {
+        "text": "纹样参考：莫高窟第320窟开凿于盛唐，敦煌研究院将其藻井井心称为云头牡丹，四周还有方胜纹、团花等边饰。本款借鉴层叠花卉的组织方式作现代改编，“盛唐团花”是项目名称。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "莫高窟第320窟",
+            "url": "https://www.dha.ac.cn/info/1425/3599.htm",
+            "publisher": "敦煌研究院",
+            "section": "开篇洞窟年代及主室窟顶藻井说明",
+            "scope": "按官方名称写云头牡丹，不将其无条件等同为莲花或声称本图为原画复原",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      }
+    },
+    "craftSteps": [],
+    "patternSummary": {
+      "words": [
+        "云头牡丹",
+        "团花"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "莫高窟第320窟",
+          "url": "https://www.dha.ac.cn/info/1425/3599.htm",
+          "publisher": "敦煌研究院",
+          "section": "开篇洞窟年代及主室窟顶藻井说明",
+          "scope": "按官方名称写云头牡丹，不将其无条件等同为莲花或声称本图为原画复原",
+          "accessed": "2026-10-19",
+          "verified": "2026-10-19"
+        },
+        {
+          "title": "本项目素材清单：设计思路",
+          "path": "assets/README.md",
+          "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+        }
+      ]
+    }
+  },
+  {
+    "id": "lion-lotus",
+    "name": "狮子莲华",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 30,
+      "radius": 1.06,
+      "canopyHeight": 0.58,
+      "canopyRise": 0.11,
+      "shaftLength": 2.4,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.84,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-85-lion-lotus.png",
+      "canopyColor": "#d5b17b",
+      "transmission": 0.55,
+      "roughness": 0.82,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "本款采用30根伞骨，伞面中央较高，弧垂也较明显，形成比平展款更深的伞面轮廓。这些比例用于本项目的造型区分，不表示曾有同名、同骨数的历史实物。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目模型参数：狮子莲华",
+            "path": "data/umbrellas.json",
+            "section": "lion-lotus.geometry",
+            "scope": "仅支持本项目参数事实，不作为历史实物尺寸或传统制式来源",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "materials": {
+        "text": "用材参考：传统纸伞以竹为骨、以纸为面，并有上桐油的做法。画面中的竹木纹理是数字贴图，不是实物检测结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "section": "二、（二）材料准备与主要制作工序；四、（二）开头",
+            "scope": "只支持传统纸伞的竹骨、纸面及上油参考，不证明本项目各款已制成实物",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      },
+      "patternTheme": {
+        "text": "本款将狮子与莲花组合作为伞面的现代设计题材，用圆形布局组织动物与花叶。名称取自本项目素材清单；当前不将它认定为某一洞窟原画的精确复制，也不赋予未经证实的历史寓意。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目素材清单：狮子莲华 P07",
+            "path": "assets/manifest.json",
+            "section": "assets.P07",
+            "scope": "只支持项目名称、题材与现有素材路径；文件名中的窟号不作为已核实历史出处"
+          },
+          {
+            "title": "本项目素材设计思路",
+            "path": "assets/README.md",
+            "section": "设计思路",
+            "scope": "只支持现代圆形改编的项目定位，不证明某一洞窟原画的细节对应"
+          }
+        ]
+      }
+    },
+    "craftSteps": [],
+    "patternSummary": {
+      "words": [
+        "狮子",
+        "莲花"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "本项目素材清单：狮子莲华 P07",
+          "path": "assets/manifest.json",
+          "section": "assets.P07",
+          "scope": "只支持项目名称、题材与现有素材路径；文件名中的窟号不作为已核实历史出处"
+        },
+        {
+          "title": "本项目素材设计思路",
+          "path": "assets/README.md",
+          "section": "设计思路",
+          "scope": "只支持现代圆形改编的项目定位，不证明某一洞窟原画的细节对应"
+        }
+      ]
+    }
+  },
+  {
+    "id": "dragon-parrots",
+    "name": "团龙鹦鹉",
+    "alias": "",
+    "origin": "",
+    "geometry": {
+      "ribCount": 48,
+      "radius": 1.14,
+      "canopyHeight": 0.48,
+      "canopyRise": 0.065,
+      "shaftLength": 2.5,
+      "shaftRadius": 0.018,
+      "ribRadius": 0.008,
+      "stretcherRadius": 0.007,
+      "hubRadius": 0.045,
+      "hubHeight": 0.065,
+      "lowerHubDistance": 0.88,
+      "openAmount": 1,
+      "handleLength": 0.28,
+      "handleRadius": 0.035
+    },
+    "material": {
+      "canopyTexture": "assets/patterns/mogao-61-dragon-parrots.png",
+      "canopyColor": "#d9ce9b",
+      "transmission": 0.7,
+      "roughness": 0.74,
+      "bambooColor": "#87915b",
+      "woodColor": "#573622"
+    },
+    "textures": {
+      "bamboo": "assets/textures/bamboo-rib.webp",
+      "wood": "assets/textures/wood-handle.webp"
+    },
+    "lighting": {
+      "lightAngle": 55,
+      "lightIntensity": 4.5
+    },
+    "culture": {
+      "shape": {
+        "text": "本款采用48根伞骨，是当前八款中伞骨最密的一款，伞面中央高度与弧垂取中间值。密集的骨架与环绕纹样共同形成层次，属于现代数字模型设计，不是历史伞具的骨数记录。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目模型参数：团龙鹦鹉",
+            "path": "data/umbrellas.json",
+            "section": "dragon-parrots.geometry",
+            "scope": "仅支持本项目参数事实，不作为历史实物尺寸或传统制式来源",
+            "verified": "2026-10-19"
+          }
+        ]
+      },
+      "materials": {
+        "text": "用材参考：传统纸伞以竹为骨、以纸为面，并有上桐油的做法。画面中的竹木纹理是数字贴图，不是实物检测结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "section": "二、（二）材料准备与主要制作工序；四、（二）开头",
+            "scope": "只支持传统纸伞的竹骨、纸面及上油参考，不证明本项目各款已制成实物",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      },
+      "patternTheme": {
+        "text": "纹样参考：数字敦煌记载，莫高窟第61窟主室的华盖式藻井，中心组合了莲花、团龙与鹦鹉题材。本款将这些题材重新编排在圆形伞面上，并不复原整座藻井，也不代表古人曾制作同款伞。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "数字敦煌：莫高窟第61窟",
+            "url": "https://www.e-dunhuang.com/cave/10.0001/0001.0001.0061",
+            "publisher": "敦煌研究院",
+            "section": "Main Chamber / Ceiling Center",
+            "scope": "仅支持藻井中的莲花、团龙与鹦鹉题材，不支持未经核对的皇权或吉祥寓意",
+            "accessed": "2026-10-19",
+            "verified": "2026-10-19"
+          },
+          {
+            "title": "本项目素材清单：设计思路",
+            "path": "assets/README.md",
+            "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+          }
+        ]
+      }
+    },
+    "craftSteps": [],
+    "patternSummary": {
+      "words": [
+        "团龙",
+        "鹦鹉"
+      ],
+      "level": "史实",
+      "_source": [
+        {
+          "title": "数字敦煌：莫高窟第61窟",
+          "url": "https://www.e-dunhuang.com/cave/10.0001/0001.0001.0061",
+          "publisher": "敦煌研究院",
+          "section": "Main Chamber / Ceiling Center",
+          "scope": "仅支持藻井中的莲花、团龙与鹦鹉题材，不支持未经核对的皇权或吉祥寓意",
+          "accessed": "2026-10-19",
+          "verified": "2026-10-19"
+        },
+        {
+          "title": "本项目素材清单：设计思路",
+          "path": "assets/README.md",
+          "scope": "仅支持现代圆形改编、数字材质与设计定位，不支持历史寓意或古伞实物断言"
+        }
+      ]
+    }
+  }
+]

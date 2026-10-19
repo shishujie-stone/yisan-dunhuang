@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "theme": "敦煌历史纹样启发的现代伞面设计",
+  "assets": [
+    {
+      "id": "P01",
+      "name": "三兔莲华",
+      "path": "patterns/mogao-407-three-hares-lotus.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "png",
+      "source": "assets/patterns/standardized/P01.png",
+      "sha256": "fc017c7ef9847b70fcb9c3179b2e4703883f6659799e3ad5fe6a29ea5fdbb167"
+    },
+    {
+      "id": "P02",
+      "name": "忍冬缠枝",
+      "path": "patterns/mogao-285-honeysuckle.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "png",
+      "source": "assets/patterns/standardized/P02.png",
+      "sha256": "43b3fd217b403d80138318632d5e7e76115b75bc8bbd70b2132aea1bd12577a6"
+    },
+    {
+      "id": "P03",
+      "name": "盘茎莲华",
+      "path": "patterns/mogao-390-stemmed-lotus.webp",
+      "width": 2048,
+      "height": 2048,
+      "format": "webp",
+      "source": "assets/patterns/standardized/P03.png",
+      "sha256": "132b7aa5bc104aa25342bf159bb1e702cd7b344fbe2108a60c5dafe94151c91d",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "无损",
+        "quality": null,
+        "originalBytes": 660838,
+        "bytes": 262812,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "P04",
+      "name": "青空卷莲",
+      "path": "patterns/mogao-329-cloud-lotus.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "png",
+      "source": "assets/patterns/standardized/P04.png",
+      "sha256": "92254d47214e9378a08f2a353d3b45a6a525c4e08116e72f86595a68f1671df0"
+    },
+    {
+      "id": "P05",
+      "name": "葡萄石榴",
+      "path": "patterns/mogao-209-grape-pomegranate.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "png",
+      "source": "assets/patterns/standardized/P05.png",
+      "sha256": "47957f854e8185988195e7647afd2e05d5ac0acb502fe714cffac3159a44bc7f"
+    },
+    {
+      "id": "P06",
+      "name": "盛唐团花",
+      "path": "patterns/mogao-320-composite-flower.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "png",
+      "source": "assets/patterns/standardized/P06.png",
+      "sha256": "ae62eeee888c452eaa782d6b6c8a916c35d93b2d371c92836d46c53908b3fc87"
+    },
+    {
+      "id": "P07",
+      "name": "狮子莲华",
+      "path": "patterns/mogao-85-lion-lotus.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "png",
+      "source": "assets/patterns/standardized/P07.png",
+      "sha256": "de5cafde79f28801e6d54e02b5c6b114871ebbe9ff757b1d457670acc782539d"
+    },
+    {
+      "id": "P08",
+      "name": "团龙鹦鹉",
+      "path": "patterns/mogao-61-dragon-parrots.png",
+      "width": 2048,
+      "height": 2048,
+      "format": "png",
+      "source": "assets/patterns/standardized/P08.png",
+      "sha256": "30504d6762dae930b52d850a2a72fa89e038f910927fb59a97ca2ae01e8696a7"
+    },
+    {
+      "id": "T01",
+      "name": "竹材质",
+      "path": "textures/bamboo-rib.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/materials/bamboo-rib.png",
+      "sha256": "8481662586f52f206cdfe5cbaf37c6db7004559cd3d6107cac1c98686fb301fa",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1138389,
+        "bytes": 128040,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "T02",
+      "name": "木材质",
+      "path": "textures/wood-handle.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/materials/wood-handle.png",
+      "sha256": "f77a3e9f802f2af806f4df284a85e938258fe2856252be6a34ee46a3b57589f5",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1343021,
+        "bytes": 174028,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C01",
+      "name": "选竹",
+      "path": "craft/bamboo-selection.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-01.png",
+      "sha256": "91595328b0907aaccd54edf4aaf3ecd078675ee14254630a8b3fed9ef7995dd7",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1788922,
+        "bytes": 249064,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C02",
+      "name": "劈竹",
+      "path": "craft/bamboo-splitting.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-02.png",
+      "sha256": "e71d3690b7ccbd270850440b91d46239895754602f2cc2f860aef6b10bb31eab",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1874784,
+        "bytes": 286090,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C03",
+      "name": "钻孔",
+      "path": "craft/rib-drilling.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-03.png",
+      "sha256": "83258c7f26af592f844487cb19696982fe1d02bc77edbba0e31fd4861cf3c2a7",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1878732,
+        "bytes": 294682,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C04",
+      "name": "穿线组架",
+      "path": "craft/frame-assembly.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-04.png",
+      "sha256": "15187ba9f2ae1f183ffd9c9ce3e6b2d7b0ab73c4c3eb4f1162d3cf97636fb962",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1887468,
+        "bytes": 294526,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C05",
+      "name": "裱纸",
+      "path": "craft/paper-mounting.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-05.png",
+      "sha256": "2e111458bd9fbd4df05f7315866121957156f842c2643bab5fccdbb674ffe4af",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1816950,
+        "bytes": 266696,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C06",
+      "name": "绘纹",
+      "path": "craft/pattern-painting.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-06.png",
+      "sha256": "9e64f63f2597cc4f5c933116df829faa4995fc342215ce5e692ae791e2d1c2a0",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1838674,
+        "bytes": 266062,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C07",
+      "name": "刷桐油",
+      "path": "craft/tung-oil-coating.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-07.png",
+      "sha256": "41940de640b8ab9c72a9cd2ec6305a2b0b15436608bd5747cf009f41b567cd85",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1813278,
+        "bytes": 266084,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "C08",
+      "name": "晾晒",
+      "path": "craft/umbrella-drying.webp",
+      "width": 1024,
+      "height": 1024,
+      "format": "webp",
+      "source": "assets/craft/craft-08.png",
+      "sha256": "3a8092330822f3b0fdc421d1dd16b4804f757b0eb32904724bcb356f4d3bfacd",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1913467,
+        "bytes": 313760,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "B01",
+      "name": "敦煌石窟内柔光背景",
+      "path": "misc/dunhuang-cave-interior-background.webp",
+      "width": 1672,
+      "height": 941,
+      "format": "webp",
+      "source": "AI生成：内置图像生成工具",
+      "sha256": "aed116ee4a65f9fa6331d2520e2c99190231a5cdb9d47e362d6e61092220f31b",
+      "previousPath": "misc/dunhuang-desert-background.webp",
+      "usageNote": "虚构的敦煌风格室内氛围，不作为真实洞窟照片或历史复原依据",
+      "generation": {
+        "tool": "image_gen",
+        "date": "2026-10-19",
+        "prompt": "生成一张横向16:9的网页3D展台背景，建议2560×1440。场景为受敦煌石窟启发的虚构室内空间，不复原或标注任何真实洞窟。风格为精致、哑光的游戏场景渲染，与高饱和朱红、石绿、金黄纹样的油纸伞协调。宽阔的石窟内壁与浅拱顶形成空间，墙脚及地面有克制的石材质感；中央约60%的区域保留安静、浅灰绿的朴素墙面，供网站叠放一把伞，画面中绝对不要画伞或展品。两侧只保留少量斑驳的矿物壁画色带、莲花卷草残片，低对比、低细节，不画人物、佛像、文字。配色以石青、灰绿、暖灰褐为主，少量暗朱砂与赭金呼应前景；不要大面积米黄、橙红、纯黑。柔和漫射光从侧上方照入，中央墙面明亮通透但不发白，边缘略深，整体庄重、安静、开阔；不要明显光束、聚光灯、亮金装饰或复杂花纹。保持背景稍柔和、空间结构仍可辨认，不要过度虚化、脏灰雾气、沙漠、天空、窗外景色、水印、边框或任何界面元素。"
+      },
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 2585773,
+        "bytes": 320168,
+        "dimensionsUnchanged": true
+      }
+    },
+    {
+      "id": "S01",
+      "name": "敦煌分享封面",
+      "path": "misc/dunhuang-umbrella-cover.webp",
+      "width": 1200,
+      "height": 630,
+      "format": "webp",
+      "source": "assets/covers/share-cover.png",
+      "sha256": "18eee9aed38922da79a9c24d09ebdf78957c5b5d46c9fe71dfadb8611ed76c3f",
+      "optimization": {
+        "date": "2026-10-19",
+        "mode": "高质量有损",
+        "quality": 92,
+        "originalBytes": 1042228,
+        "bytes": 121758,
+        "dimensionsUnchanged": true
+      }
+    }
+  ],
+  "patternProcessing": {
+    "canvasSize": [
+      2048,
+      2048
+    ],
+    "center": [
+      1024,
+      1024
+    ],
+    "diameter": 1720,
+    "margin": 164,
+    "background": "transparent",
+    "interiorColors": "preserved",
+    "backupArchive": "patterns-before-transparency-20261019-140010.zip"
+  },
+  "optimizationNote": "超过500000字节的图片转换为WebP；原图已另存项目外备份。source字段保留历史原稿标识，不作为上线资源路径。"
+}

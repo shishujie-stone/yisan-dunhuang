@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>一伞敦煌｜敦煌纹样古伞文化馆</title>
+  <meta name="description" content="撑开一伞，照见千年。探索八款敦煌纹样启发的现代伞面设计，转动观赏纹样与伞骨，了解油纸伞结构与制作工艺。">
+  <link rel="icon" type="image/png" href="assets/patterns/mogao-407-three-hares-lotus.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:site_name" content="一伞敦煌">
+  <meta property="og:title" content="一伞敦煌｜敦煌纹样古伞文化馆">
+  <meta property="og:description" content="撑开一伞，照见千年。八款敦煌纹样启发的现代伞面设计，在转动与透光中看见纹样和工艺。">
+  <meta property="og:image" content="assets/misc/dunhuang-umbrella-cover.webp">
+  <meta property="og:image:type" content="image/webp">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="敦煌纹样油纸伞分享封面">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="一伞敦煌｜敦煌纹样古伞文化馆">
+  <meta name="twitter:description" content="撑开一伞，照见千年。探索敦煌纹样与油纸伞工艺。">
+  <meta name="twitter:image" content="assets/misc/dunhuang-umbrella-cover.webp">
+  <style>
+    :root {
+      --masthead-space: 109px;
+      --culture-peek: 104px;
+      color-scheme: dark;
+      font-family: system-ui, -apple-system, sans-serif;
+      color: #e7ece7;
+      background: #202927;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; }
+    /* 顶部品牌栏独立排版，不参与目录、展台和解说区的样式。 */
+    .masthead {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 32px; min-height: 104px; padding: 20px 40px;
+      background: #112626; border-bottom: 1px solid #394c43;
+    }
+    .masthead-brand { min-width: 0; }
+    .masthead-title {
+      margin: 0; color: #eee2bc;
+      font-family: "Songti SC", "Noto Serif CJK SC", serif;
+      font-size: 32px; font-weight: 500; line-height: 44px; letter-spacing: .16em;
+    }
+    .masthead-subtitle {
+      margin: 4px 0 0; color: #b7c5b9;
+      font-size: 12px; line-height: 20px; letter-spacing: .2em;
+    }
+    .masthead-motto {
+      margin: 0 auto 0 0; color: #d1c296;
+      font-family: "Songti SC", "Noto Serif CJK SC", serif;
+      font-size: 18px; line-height: 28px; letter-spacing: .12em;
+    }
+    .masthead-actions { display: flex; align-items: center; gap: 20px; flex: 0 0 auto; }
+    .masthead-hint { margin: 0; color: #aebdb3; font-size: 13px; line-height: 20px; letter-spacing: .08em; }
+    .touch-hint { display: none; }
+    .fullscreen-button {
+      display: grid; place-items: center; width: 44px; height: 44px; padding: 10px;
+      color: #eee2bc; background: transparent; border: 1px solid transparent; cursor: pointer;
+    }
+    .fullscreen-button:hover { background: #203733; border-color: #506158; }
+    .fullscreen-button:focus-visible { outline: 2px solid #c8b16c; outline-offset: 4px; }
+    .fullscreen-icon { position: relative; display: block; width: 22px; height: 22px; }
+    .fullscreen-icon i { position: absolute; width: 8px; height: 8px; border: solid currentColor; }
+    .fullscreen-icon i:nth-child(1) { top: 0; left: 0; border-width: 2px 0 0 2px; }
+    .fullscreen-icon i:nth-child(2) { top: 0; right: 0; border-width: 2px 2px 0 0; }
+    .fullscreen-icon i:nth-child(3) { bottom: 0; left: 0; border-width: 0 0 2px 2px; }
+    .fullscreen-icon i:nth-child(4) { bottom: 0; right: 0; border-width: 0 2px 2px 0; }
+    .fullscreen-button[aria-pressed="true"] .fullscreen-icon i { transform: rotate(180deg); }
+    .masthead-feedback { margin: 0; padding: 12px 20px; background: #27332c; color: #eee2bc; font-size: 14px; line-height: 24px; }
+    .masthead-feedback:empty { display: none; }
+    @media (min-width: 601px) and (max-width: 900px) {
+      :root { --masthead-space: 149px; }
+      .masthead { flex-wrap: wrap; gap: 12px 24px; }
+      .masthead-brand { flex: 1; }
+      .masthead-actions { order: 2; }
+      .masthead-motto { order: 3; width: 100%; }
+    }
+    @media (max-width: 600px) {
+      .masthead { flex-wrap: wrap; gap: 12px; min-height: 0; padding: 16px 20px; }
+      .masthead-title { font-size: 28px; line-height: 36px; }
+      .masthead-brand { flex: 1; order: 1; }
+      .masthead-actions { display: contents; }
+      .fullscreen-button { order: 2; }
+      .masthead-motto { order: 3; width: 100%; font-size: 16px; line-height: 24px; }
+      .masthead-hint { order: 4; width: 100%; font-size: 12px; }
+      .desktop-hint { display: none; }
+      .touch-hint { display: inline; }
+    }
+    .museum {
+      display: grid;
+      grid-template-columns: 240px minmax(0, 1fr);
+      /* 首屏给顶部栏和下方整排文化标签留出位置。 */
+      grid-template-rows: minmax(0, calc(100dvh - var(--masthead-space) - var(--culture-peek))) auto;
+      min-height: 100dvh;
+    }
+    /* 只供目录与解说区使用，避免影响展台和控制条。字号集中改这里。 */
+    .catalog, .culture-section {
+      --info-font: system-ui, -apple-system, sans-serif;
+      --info-title-font: "Songti SC", "Noto Serif CJK SC", serif;
+      --info-body-size: 15px;
+      --info-title-size: 21px;
+      --info-small-size: 12px;
+      --info-line-height: 1.95;
+      --info-title-line-height: 1.6;
+      --info-title-weight: 500;
+      --info-radius: 0px;
+      --info-border-width: 1px;
+      --info-active-width: 2px;
+      --info-border-color: #39443f;
+      --info-background: #18201e;
+      --info-text: #d0d9d2;
+      --info-muted: #b6c4bc;
+      --info-heading: #e7ece7;
+      --info-accent: #c8b16c;
+      --info-selected-text: #e1ce96;
+      --info-interaction-background: #27332c;
+      --info-focus-offset: 3px;
+      font-family: var(--info-font);
+      font-size: var(--info-body-size);
+      line-height: var(--info-line-height);
+      color: var(--info-text);
+      background: var(--info-background);
+      border-radius: var(--info-radius);
+    }
+    .catalog {
+      grid-column: 1; grid-row: 1 / span 2;
+      display: flex; flex-direction: column;
+      min-height: min-content; overflow: visible;
+      padding: 40px 20px 24px;
+      border-right: var(--info-border-width) solid var(--info-border-color);
+    }
+    .catalog nav { flex: 0 0 auto; overflow: visible; }
+    .catalog-note {
+      display: flex; align-items: center; gap: 12px; flex-shrink: 0;
+      margin: auto 16px 0; padding-top: 36px;
+      color: #8f9f94; font-size: 12px; line-height: 20px;
+      letter-spacing: .08em; white-space: nowrap;
+    }
+    .catalog-note::before { content: ""; flex: 0 0 6px; height: 6px; border-radius: 50%; background: #c16a57; }
+    .catalog-heading {
+      margin: 0 16px 24px; padding-bottom: 20px;
+      border-bottom: var(--info-border-width) solid var(--info-border-color);
+      color: var(--info-heading); font-family: var(--info-title-font);
+      font-size: 28px; font-weight: var(--info-title-weight);
+      line-height: 40px; letter-spacing: .12em;
+    }
+    .catalog ul { list-style: none; padding: 0; margin: 0; }
+    .catalog li + li { margin-top: 8px; }
+    .catalog button, .culture-tabs button {
+      border: 0;
+      border-left: var(--info-active-width) solid transparent;
+      border-radius: var(--info-radius);
+      background: transparent;
+      color: var(--info-muted);
+      font-family: var(--info-title-font);
+      font-size: var(--info-title-size);
+      font-weight: var(--info-title-weight);
+      line-height: var(--info-title-line-height);
+      text-align: left;
+      cursor: pointer;
+    }
+    .catalog button { display: block; width: 100%; min-height: 56px; padding: 14px 16px; overflow-wrap: anywhere; }
+    .catalog button:hover, .culture-tabs button:hover {
+      background: var(--info-interaction-background);
+      color: var(--info-selected-text);
+    }
+    .catalog button[aria-current="true"], .culture-tabs button[aria-selected="true"] {
+      border-left-color: var(--info-accent);
+      background: var(--info-interaction-background);
+      color: var(--info-selected-text);
+    }
+    .catalog button:focus-visible, .culture-tabs button:focus-visible, .culture-section a:focus-visible {
+      outline: var(--info-active-width) solid var(--info-accent);
+      outline-offset: var(--info-focus-offset);
+    }
+    .exhibition { min-width: 0; position: relative; height: 100%; }
+    #viewport { width: 100%; height: 100%; }
+    #viewport canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+    .stage-loading {
+      position: absolute; inset: 0; z-index: 2;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 16px; padding: 24px; background: #182522; color: #e6ddc6; text-align: center;
+    }
+    .stage-loading[hidden] { display: none; }
+    .stage-loading p { margin: 0; font-size: 14px; line-height: 24px; }
+    .stage-loading progress { width: min(240px, 80%); height: 6px; accent-color: #c8b16c; }
+    .exhibit-caption {
+      position: absolute; top: 28px; left: 32px; right: 32px;
+      width: fit-content; max-width: calc(100% - 64px);
+      pointer-events: none; color: #f3e7c8;
+      text-shadow: 0 2px 8px rgba(20, 24, 21, .85);
+    }
+    .exhibit-caption h2 { margin: 0; font: 400 32px/44px "Songti SC", "Noto Serif CJK SC", serif; letter-spacing: .08em; }
+    .exhibit-caption p { margin: 8px 0 0; font: 14px/24px system-ui, sans-serif; letter-spacing: .16em; }
+    .stage-controls {
+      position: absolute; right: 24px; bottom: 24px;
+      width: 280px; min-width: 0; margin: 0; padding: 20px;
+      border: 1px solid #526158; background: rgba(17, 38, 38, .94);
+      border-radius: 3px; color: #d8d7c6;
+    }
+    .stage-controls .opening-control { display: grid; grid-template-columns: 32px minmax(0, 1fr) 40px; gap: 12px; align-items: center; font-size: 14px; line-height: 24px; }
+    .stage-controls output { color: #e1ce96; font-variant-numeric: tabular-nums; text-align: right; }
+    .stage-controls input { display: block; min-width: 0; width: 100%; margin: 0; accent-color: #c8b16c; }
+    .pattern-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; margin: 24px 0 12px; font-size: 14px; line-height: 24px; }
+    #pattern-name { color: #b5bcad; font-size: 12px; }
+    .pattern-options { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px 8px; }
+    .pattern-option { position: relative; min-width: 0; padding: 4px 4px 12px; border: 0; background: transparent; cursor: pointer; }
+    .pattern-option img { display: block; width: 100%; height: auto; aspect-ratio: 1; border-radius: 50%; object-fit: cover; padding: 2px; border: 1px solid transparent; }
+    .pattern-option:hover img { border-color: #8a9a8a; }
+    .pattern-option[aria-pressed="true"] img { border-color: #e1ce96; }
+    .pattern-option[aria-pressed="true"]::after { content: ""; position: absolute; bottom: 0; left: calc(50% - 2px); width: 4px; height: 4px; border-radius: 50%; background: #d17661; }
+    .selection-footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-top: 24px; padding-top: 12px; border-top: 1px solid #42534c; }
+    .selection-footer p { margin: 0; color: #9ca99a; font-size: 11px; line-height: 20px; }
+    #reset-view { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 4px 0 4px 8px; border: 0; background: transparent; color: #d8d7c6; font: 12px/20px system-ui, sans-serif; white-space: nowrap; cursor: pointer; }
+    #reset-view:hover { color: #e1ce96; }
+    .stage-controls :focus-visible { outline: 2px solid #c8b16c; outline-offset: 2px; }
+    .stage-controls:disabled { opacity: .65; }
+    .stage-actions {
+      position: absolute; left: 32px; right: 320px; bottom: 24px;
+      display: flex; align-items: center; flex-wrap: wrap; gap: 8px 24px;
+      pointer-events: none;
+    }
+    .stage-actions button {
+      display: inline-flex; align-items: center; gap: 12px;
+      min-height: 44px; padding: 8px; border: 1px solid transparent;
+      background: rgba(24, 32, 30, .5); color: #e6ddc6;
+      font: 15px/24px system-ui, sans-serif; cursor: pointer; pointer-events: auto;
+    }
+    .stage-actions button:hover { background: rgba(24, 32, 30, .85); border-color: #657566; }
+    .stage-actions button:focus-visible { outline: 2px solid #c8b16c; outline-offset: 4px; }
+    .stage-actions button:disabled { opacity: .5; cursor: wait; }
+    .stage-action-icon { display: inline-block; min-width: 24px; font-size: 24px; text-align: center; }
+    .action-mobile { display: none; }
+    .stage-action-status {
+      position: absolute; width: 1px; height: 1px; padding: 0;
+      overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+    }
+    #viewport canvas:focus-visible { outline: 2px solid #c8b16c; outline-offset: -4px; }
+
+    #status { margin: 0; padding: 0 16px; font-size: var(--info-body-size); line-height: var(--info-line-height); }
+    #status:empty { display: none; }
+    .culture-section {
+      /* 解说区三级字号与四像素间距；不影响目录和展台。 */
+      --info-title-size: 24px;
+      --info-body-size: 16px;
+      --info-small-size: 12px;
+      --info-title-line-height: 32px;
+      --info-line-height: 28px;
+      --culture-note-line-height: 20px;
+      --culture-space: 4px;
+      grid-column: 2; min-width: 0;
+      padding: calc(var(--culture-space) * 10) calc(var(--culture-space) * 12) calc(var(--culture-space) * 16);
+      border-top: var(--info-border-width) solid var(--info-border-color);
+    }
+    .culture-tabs {
+      display: flex; gap: calc(var(--culture-space) * 4);
+      margin-bottom: calc(var(--culture-space) * 8);
+      border-bottom: var(--info-border-width) solid var(--info-border-color);
+    }
+    .culture-tabs button { padding: calc(var(--culture-space) * 3) calc(var(--culture-space) * 4); }
+    .culture-copy { max-width: 720px; }
+    .culture-entry + .culture-entry {
+      margin-top: calc(var(--culture-space) * 8);
+      padding-top: calc(var(--culture-space) * 6);
+      border-top: var(--info-border-width) solid var(--info-border-color);
+    }
+    .culture-section h3 {
+      margin: 0 0 calc(var(--culture-space) * 4); color: var(--info-heading);
+      font-family: var(--info-title-font); font-size: var(--info-title-size);
+      font-weight: var(--info-title-weight); line-height: var(--info-title-line-height);
+    }
+    .culture-section .evidence-level {
+      display: inline-block; vertical-align: baseline;
+      margin-left: calc(var(--culture-space) * 4); color: var(--info-muted);
+      font-family: var(--info-font); font-size: var(--info-small-size);
+      font-weight: 400; line-height: var(--culture-note-line-height);
+    }
+    .culture-section p { margin: 0; font-size: var(--info-body-size); line-height: var(--info-line-height); color: var(--info-text); }
+    .culture-section p + p { margin-top: calc(var(--culture-space) * 4); }
+    .culture-section .sources {
+      display: flex; flex-wrap: wrap; gap: calc(var(--culture-space) * 2) calc(var(--culture-space) * 4);
+      margin-top: calc(var(--culture-space) * 4);
+      font-size: var(--info-small-size); line-height: var(--culture-note-line-height);
+    }
+    .culture-section .sources a { color: var(--info-muted); text-underline-offset: 4px; overflow-wrap: anywhere; }
+    .culture-section .sources a:hover { color: var(--info-selected-text); }
+    .culture-section .craft-list { list-style: none; padding: 0; margin: 0; max-width: 920px; }
+    .culture-section .craft-step {
+      display: grid; grid-template-columns: 176px minmax(0, 1fr);
+      gap: calc(var(--culture-space) * 6); align-items: start;
+    }
+    .culture-section .craft-step + .craft-step {
+      border-top: var(--info-border-width) solid var(--info-border-color);
+      padding-top: calc(var(--culture-space) * 8); margin-top: calc(var(--culture-space) * 8);
+    }
+    .culture-section .craft-step img { display: block; width: 176px; height: 176px; object-fit: contain; border-radius: var(--info-radius); }
+    .controls-toggle { display: none; }
+    /* 手机只改布局；桌面的展台与信息面板保持原样。 */
+    @media (max-width: 600px) {
+      .museum { grid-template-columns: minmax(0, 1fr); grid-template-rows: auto auto; }
+      .catalog { display: none; }
+      .exhibition {
+        grid-column: 1; grid-row: 1;
+        height: 50vh; height: 50svh;
+      }
+      #viewport { min-width: 0; min-height: 0; }
+      .exhibit-caption { top: 16px; left: 20px; right: 20px; max-width: calc(100% - 40px); }
+      .exhibit-caption h2 { font-size: 24px; line-height: 32px; }
+      .exhibit-caption p { margin-top: 4px; font-size: 12px; line-height: 20px; }
+      .controls-toggle {
+        display: grid; place-items: center;
+        position: absolute; right: 16px; bottom: 12px;
+        width: 44px; height: 44px; padding: 0;
+        border: 1px solid #657566; border-radius: 0;
+        background: rgba(24, 32, 30, .94); color: #e1ce96;
+        font: 24px/1 system-ui, sans-serif; cursor: pointer;
+      }
+      .controls-toggle:focus-visible { outline: 2px solid #c8b16c; outline-offset: 4px; }
+      .stage-controls {
+        position: absolute; right: 16px; bottom: 68px;
+        min-width: 0; width: calc(100% - 32px); padding: 12px 16px;
+        max-height: calc(100% - 80px); overflow-y: auto;
+      }
+      .exhibition:not(.controls-open) .stage-controls { display: none; }
+      .stage-controls .pattern-heading { margin: 16px 0 8px; }
+      .stage-controls .pattern-option img { max-width: 56px; margin: 0 auto; }
+      .stage-controls .selection-footer { margin-top: 16px; }
+      .stage-actions { left: 12px; right: 72px; bottom: 12px; gap: 8px; }
+      .stage-actions button { gap: 8px; padding: 8px; font-size: 13px; line-height: 20px; }
+      .stage-action-icon { min-width: 20px; font-size: 20px; }
+      .action-desktop { display: none; }
+      .action-mobile { display: inline; }
+
+      .stage-controls label + label { margin-top: 10px; }
+      .stage-controls input { min-height: 28px; touch-action: pan-y; }
+      .stage-controls select { min-height: 44px; font-size: 16px; }
+      .control-label { margin-bottom: 4px; }
+      .culture-section { grid-column: 1; grid-row: 2; padding: calc(var(--culture-space) * 6) calc(var(--culture-space) * 5) calc(var(--culture-space) * 10); }
+      .culture-tabs { gap: 8px; }
+      .culture-tabs button { flex: 1; padding: 12px 8px; }
+      .culture-section .craft-step { grid-template-columns: minmax(0, 1fr); gap: calc(var(--culture-space) * 4); }
+      .culture-section .craft-step img { width: min(100%, 280px); height: auto; aspect-ratio: 1; }
+    }
+  </style>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <header class="masthead" aria-label="一伞敦煌">
+    <div class="masthead-brand">
+      <h1 class="masthead-title">一伞敦煌</h1>
+      <p class="masthead-subtitle">敦煌纹样古伞文化馆</p>
+    </div>
+    <p class="masthead-motto">撑开一伞，照见千年。</p>
+    <div class="masthead-actions">
+      <p class="masthead-hint"><span class="desktop-hint">拖动欣赏 · 滚轮缩放</span><span class="touch-hint">单指旋转 · 双指缩放</span></p>
+      <button class="fullscreen-button" id="fullscreen-toggle" type="button" aria-label="进入全屏" title="进入全屏" aria-pressed="false">
+        <span class="fullscreen-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+  <p class="masthead-feedback" id="fullscreen-feedback" role="status" aria-live="polite"></p>
+  <div class="museum">
+    <aside class="catalog">
+      <nav aria-labelledby="catalog-heading">
+        <h2 class="catalog-heading" id="catalog-heading">壁上生花</h2>
+        <ul id="umbrella-list"></ul>
+      </nav>
+      <p id="status" role="status" aria-live="polite"></p>
+      <p class="catalog-note">敦煌纹样 · 当代伞韵</p>
+    </aside>
+    <main class="exhibition" aria-label="古伞三维展台" aria-busy="true">
+      <div id="viewport"></div>
+      <div class="stage-loading" id="stage-loading">
+        <p id="loading-message" role="status" aria-live="polite">正在准备展台……</p>
+        <progress id="loading-progress" max="100" value="5" aria-label="展台加载进度"></progress>
+      </div>
+      <div class="exhibit-caption" aria-live="polite" aria-atomic="true" hidden>
+        <h2 id="exhibit-name"></h2>
+        <p id="exhibit-summary"></p>
+      </div>
+      <div class="stage-actions" role="group" aria-label="观赏操作">
+        <button id="inspect-umbrella" type="button" title="暂停自转，在伞上拖动旋转，细看伞骨" disabled>
+          <span class="stage-action-icon" aria-hidden="true">↔</span><span class="action-desktop">拖动旋转，细看伞骨</span><span class="action-mobile">拖动查看</span>
+        </button>
+        <button id="toggle-rotation" type="button" aria-pressed="false" title="暂停自转" disabled>
+          <span class="stage-action-icon rotation-icon" aria-hidden="true">Ⅱ</span><span class="rotation-label">暂停自转</span>
+        </button>
+      </div>
+      <p class="stage-action-status" id="stage-action-status" role="status" aria-live="polite"></p>
+      <fieldset class="stage-controls" id="stage-controls" aria-label="展台控制" disabled>
+        <label class="opening-control" for="openAmount"><span>开合</span><input id="openAmount" type="range" min="0" max="1" step="0.01" value="1"><output id="openAmount-value" for="openAmount"></output></label>
+        <div class="pattern-heading"><span id="pattern-label">纹样</span><span id="pattern-name" aria-live="polite"></span></div>
+        <div class="pattern-options" id="canopyTexture" role="group" aria-labelledby="pattern-label"></div>
+        <div class="selection-footer"><p>方寸伞面，千年敦煌</p><button id="reset-view" type="button"><span aria-hidden="true">↶</span>重置视角</button></div>
+      </fieldset>
+      <button class="controls-toggle" id="controls-toggle" type="button" aria-label="展开伞的设置" aria-expanded="false" aria-controls="stage-controls"><span aria-hidden="true">⚙</span></button>
+    </main>
+    <section class="culture-section" id="culture-section" aria-label="文化解说" hidden>
+      <div class="culture-tabs" role="tablist" aria-label="解说分类">
+        <button id="tab-shape" type="button" role="tab" aria-selected="true" aria-controls="panel-shape" tabindex="0">形制</button>
+        <button id="tab-craft" type="button" role="tab" aria-selected="false" aria-controls="panel-craft" tabindex="-1">工艺</button>
+        <button id="tab-pattern" type="button" role="tab" aria-selected="false" aria-controls="panel-pattern" tabindex="-1">纹样</button>
+      </div>
+      <div id="panel-shape" class="culture-copy" role="tabpanel" aria-labelledby="tab-shape" tabindex="0"></div>
+      <div id="panel-craft" role="tabpanel" aria-labelledby="tab-craft" tabindex="0" hidden></div>
+      <div id="panel-pattern" class="culture-copy" role="tabpanel" aria-labelledby="tab-pattern" tabindex="0" hidden></div>
+    </section>
+  </div>
+</body>
+</html>
