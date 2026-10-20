@@ -16,3 +16,9 @@
 原生 HTML、CSS、JavaScript，Three.js 0.169.0 通过 CDN 加载，无需安装依赖或构建；首次访问需要联网。
 
 `index.html` 为页面，`src/` 为模型和页面逻辑，`data/umbrellas.json` 为档案，`assets/` 为素材。AI 生成素材用于现代设计展示，不作为真实文物照片或历史复原依据。
+
+## 自动发布
+
+`main` 是正式发布分支。提交并推送到 `main` 后，GitHub Pages 和已关联的 Vercel 项目会分别自动部署；部署成功后，以上两个网站地址保持不变。
+
+只在本地保存或创建 commit 不会更新网站，需要推送到 GitHub。其他分支用于开发和预览。
