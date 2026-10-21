@@ -354,9 +354,17 @@
     },
     "culture": {
       "shape": {
-        "text": "",
-        "level": null,
-        "_source": null
+        "text": "本款采用24根伞骨，数量少于三兔莲华的32根，伞面也略小，中央高度较低。相邻伞骨之间设有弧垂，使边缘呈现轻微起伏，骨架留出较疏朗的节奏。这些比例来自本项目的数字模型设计，不是历史伞具的制式或实物测绘结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "本项目模型参数：忍冬缠枝",
+            "path": "data/umbrellas.json",
+            "section": "honeysuckle.geometry；three-hares-lotus.geometry",
+            "scope": "支持24根与32根伞骨、相对半径及中央高度等项目参数比较；不作为历史实物尺寸、传统制式或实物承重结论",
+            "verified": "2026-10-21"
+          }
+        ]
       },
       "size": {
         "text": "",
@@ -364,9 +372,24 @@
         "_source": null
       },
       "materials": {
-        "text": "",
-        "level": null,
-        "_source": null
+        "text": "用材参考：传统纸伞可用竹制作伞骨与伞斗，以纸裱糊伞面，之后上油。本款在数字展示中使用竹骨和木柄贴图，并以透光材质表现纸面的观感。画面中的纹理与颜色是设计效果，不表示已经制作实物，也不是材料检测结果。",
+        "level": "史实",
+        "_source": [
+          {
+            "title": "薛延年：余杭纸伞制作技艺的传承及其文化研究",
+            "url": "https://www.ihchina.cn/luntan_details/26604.html",
+            "publisher": "中国非物质文化遗产网·中国非物质文化遗产数字博物馆",
+            "section": "二、（二）制作工序：材料准备、湿纸裱糊与装配上油",
+            "scope": "只支持传统纸伞竹骨、竹斗、纸面与上油等参考，不证明本款为历史实物或已制作的成品",
+            "verified": "2026-10-21"
+          },
+          {
+            "title": "本项目档案与数字材质：忍冬缠枝",
+            "path": "data/umbrellas.json",
+            "section": "honeysuckle.textures；honeysuckle.material",
+            "scope": "支持竹木贴图与数字透光材质的项目设计事实"
+          }
+        ]
       },
       "patternTheme": {
         "text": "纹样参考：数字敦煌记载，莫高窟第285窟为西魏洞窟，藻井中心绘莲花，周围配有忍冬、火焰与云纹。本款借鉴忍冬枝叶回旋、连续排列的装饰思路，重新组织为圆形伞面；配色与构图属于现代设计，并非壁画原貌或历史伞具复原。",
